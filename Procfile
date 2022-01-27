@@ -1,1 +1,1 @@
- web: java -Dspring-profiles.active=prod -Dserver.port = $PORT $JAVA_OPTS -jar target/spring-boot-microservice1-product-0.0.1-SNAPSHOT.jar
+ web: java -Dspring-profiles.active=prod -Dserver.port = $PORT  -cp target/classes/:target/dependency/* com.sha.springbootmicroservice1product.SpringBootMicroservice1ProductApplication
