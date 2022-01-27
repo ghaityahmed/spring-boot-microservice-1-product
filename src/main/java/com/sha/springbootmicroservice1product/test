@@ -1,0 +1,40 @@
+Conditions Tarifaires
+
+
+Natures d'opérations
+- affiche la liste des natures d'operations
+GET : /wallet-web/nature-operations
+
+
+Type de valeur
+- affiche la liste des types valeurs
+GET : /general-provider/commission-sharing-actors
+
+
+
+Insertion Conditions Tarifaires
+- POST :
+
+Long id; (pas obligatoire)
+
+
+
+
+
+- GET en fonction de l'id
+Method GET : /wallet/commission-sharing-conditions/{id}
+
+
+
+- GET ALL
+Method : GET : /wallet/commission-sharing-conditions
+
+
+PUT : /wallet/commission-sharing-conditions
+même Objet
+
+=================================================
+
+
+GET : /wallet-web/all-type-valeurs
+
